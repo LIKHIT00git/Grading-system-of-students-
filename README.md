@@ -10,7 +10,6 @@ int main() {
         int marks[5];
         float percentage;
         int pass = 1;
-
         printf("\n++++ Enter marks for Student %d ++++\n", i);
         printf("Physics: ");
         scanf("%d", &marks[0]);
@@ -44,6 +43,5 @@ int main() {
             printf("Not eligible (Failed in one or more subjects)\n");
         }
     }
-
-    return 0;
+   return 0;
 }
